@@ -1,0 +1,286 @@
+# Translation of Plugins - igumbi Online Booking - Development Readme (trunk) in German
+# This file is distributed under the same license as the Plugins - igumbi Online Booking - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-06 07:40+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.7\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - igumbi Online Booking - Development Readme (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Plugin name.
+msgid "igumbi Online Booking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add to the plugin file so we can translate the plugin description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All links back to igumbi are in https"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The sample calendar is embedded into productcategorylist and takes the first productcategory in the list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrate the availability calendar into the admin backend and show the required shortcodes to embed the availability calendar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get a list of current productcategories into the admin backend"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Availability calendars for the next calendar year are generated for each productcategory. Embed the calendars on your Sites page describeing the categories. This is especially useful for holiday rentals and apartments."
+msgstr ""
+
+#. Found in description header.
+msgid "Embed the Availability Calendars"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "inject the shortcode for the igumbi_dialog (the output of the booking tool) via the_post filter (unless a shortcode is defined in a post or in a template file). This makes the plugin useable out of the box when installed with a sane default placement of the booking tool output."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Finetune German translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link to the Settings in the plugin list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix errors where the settings api was not properly used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set the default mode to responsive when the plugin is activated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translate the admin-settings page into German"
+msgstr ""
+
+#. Short description.
+msgid ""
+"Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool / IBE.\n"
+"\n"
+"Requires at least: 3."
+msgstr "Erstellen Sie provisionsfreie Online-Buchungen direkt auf Ihrer WordPress-Website, indem Sie das igumbi Online-Buchungstool / IBE integrieren."
+
+#. Found in faq paragraph.
+msgid "Yes it can. If you have a stripe.com account stripe can be set as the payment processor. There are two modes: Charge the whole amount at the time of booking or charge a deposit which can be specified as a percentage of the total amount."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can the plugin handle payments after accepting the reservation?"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added information about the Stripe payment processing option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the responsive option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatability with WP version 4.9.6"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The booking tool uses jQuery but has the \"$\" mapped to the \"$igu\" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: if you do encounter an issue, we are very eager to fix it. Please <a href=\"https://www.igumbi.com/de/kontakt\">let us know it</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"The online booking tool is available in German, English, Greek, Italian, Russian, Spanish, Dutch, Czech and Polish.\n"
+"Bear in Mind that you will need to translate the product names and descriptions and the productcategory descriptions into all the languages you want to support via the igumbi backend [Hotel data &gt; Translations]. If you require other languages, we can integrate them if you are willing to help with the translation: there are around 100 words/phrases in the booking tool. We support UTF8, so Asian languages should not be a problem."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can overwrite the CSS of the booking tool via the igumbi backend (recommended) or via the WordPress settings page (easier for a designer that maintains to WordPress Installation for a property)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, this plugin will help you place the igumbi online booking tool into your WordPress site. To manage your rates, availability and reservations you will use the igumbi backend."
+msgstr ""
+
+#. Found in faq header.
+msgid "The booking tool uses Javascript, what if there are conflicts (typically image gallery)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which languages do you support?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I style of the booking tool to be in line with my theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this integrate a reservation backend into my WordPress blog?"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Tweak and overwrite the CSS to match the look of your template via the igumbi backend or the custom CSS field in the settings page in the WordPress backend."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Add to any page, post, or as a sidebar widget. Integrate with shortcodes [igumbi_dialog] and [igumbi_avform] into your site template. [igumbi_dialog] needs to be placed into your template/page where you want the response of the booking system. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages from within your template."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Go to the WordPress settings page (igumbi online bookings) and fill out the details. Get the 'Hotel code' from the <a href=\"https://www.igumbi.net/settings/mine\">hotel settings page in igumbi</a>."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Download the plugin, add it to your blog in the plugin folder and activate it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Check out the <a href=\"https://www.igumbi.com/en/wordpress\">official site</a> for details and screenshots."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can overwrite the CSS generated by the igumbi booking tool to match the look and feel of your sites theme in the igumbi backend or via the WordPress igumbi Settings Page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With the new plugin architecture, you can now leverage the flexibility of the shortcodes to display the elements of the igumbi booking tool in your pages or on your widgetized areas (sidebar, footer, header)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Before you set the tool live, ensure that you have entered all reservations into the igumbi backend (at least for the critical dates) so that the correct daily availability can be calculated."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"A 30 day free trial account is available at <a href=\"https://www.igumbi.com/trial?lang=en\">igumbi.com/trial</a>.\n"
+"Then go the <a href=\"https://www.igumbi.net/settings/mine\">settings page</a> and get the 7 character hotel code to hook up the online booking tool with the wordpress plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin is free to use, but you do <a href=\"https://www.igumbi.com/trial?lang=en\">need an account</a> with igumbi.com."
+msgstr "Das Plugin kann kostenlos verwenden werden, aber Sie brauchen <a href=\"https://www.igumbi.com/trial\"> ein igumbi Account</a>."
+
+#. Found in description paragraph.
+msgid "The igumbi booking tool gives your site visitors dynamic room/ apartment prices based on revenue management methods, which also implement an upselling strategy. This helps you, as the property owner, to earn more and pay less OTA comissions for your online bookings."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin makes the booking tool available to your WordPress site, without the need to manually manage free rooms and prices. You will use the igumbi backend to handle your daily business and reservations, send emails via email-templates like offers and confirmations, create invoices, assign rooms, check in and register your guests, track deposits."
+msgstr "Das Plugin macht das Buchungstool für Ihre WordPress-Seite verfügbar, ohne dass Sie die Zimmer und Preise manuell verwalten müssen. Mit dem igumbi-Backend erledigen Sie Ihre Tagesgeschäft: Reservierungen verwalten, E-Mails mit E-Mail-Vorlagen wie Angebote und Bestätigungen versenden, Anzahlungen und Zahlungen verwalten, Rechnungen erstellen, Zimmer zuteilen, Gäste einchecken."
+
+#. Found in description paragraph.
+msgid "igumbi is a simple and fast online booking tool/ online booking engine for a hotel-, apartment or holiday rental website (also an online hotelsoftware/ PMS and a revenue- / yield-management system). Used by hotels, bed and breakfasts, apartments, holiday rentals: apartments or holiday houses."
+msgstr "igumbi ist ein einfaches und schnelles Online-Buchungstool / Online-Buchungsmodul für eine Hotel-, Apartment- oder Ferienwohnungs-Website (auch eine Online-Hotelsoftware/ PMS und ein Revenue-/ Yield-Management-System). Es wird verwendet von Hotels, Pensionen, Apartments, Ferienwohnungen oder Ferienhäuser."
+
+#. Found in description header.
+msgid "Tune the colors of the booking tool by adjusting the CSS"
+msgstr ""
+
+#. Found in description header.
+msgid "Display the booking tool where you need it"
+msgstr ""
+
+#. Found in description header.
+msgid "Create your igumbi account"
+msgstr ""
+
+#. Screenshot description.
+msgid "Reservation table/board in the igumbi backend system"
+msgstr "Belegungsplan im igumbi Backendsystem"
+
+#. Screenshot description.
+msgid "Get the hotel code from the igumbi setting page"
+msgstr "Holen Sie sich den Hotelcode von der igumbi Settings Seite"
+
+#. Screenshot description.
+msgid "igumbi trial sign up form"
+msgstr ""
+
+#. Screenshot description.
+msgid "The settings page to hook up the igumbi online booking tool"
+msgstr ""
+
+#. Screenshot description.
+msgid "igumbi Online Booking Tool integrated into a WordPress page"
+msgstr "igumbi Online Buchungstool in eine WordPress-Seite integriert"
+
+#. Found in changelog list item.
+msgid "Update screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Links back to the design edit screen in igumbi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed typos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release of this Plugin: Helps to integrate the igumbi online booking tool into your WordPress site, specify the hotel code, the wide/tall option and language. Shortcodes: [igumbi_avform] and [igumbi_dialog]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The shortcode [igumbi_avform] can take parameters like language, orientation and CSS test modus [igumbi_avform lang=es wide=true test=true]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The settings page got a field where the CSS can be overwritten from within WordPress. No need for the designer to go to the igumbi backend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The default language of the booking tool can be selected on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with Wordpress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Dutch language, language code nl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Czech and Polish language: language code cz,pl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with WordPress 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with WordPress 4.2.3 and adjusted install instructions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Links back to https://www.igumbi.com use https"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with WordPress 4.2.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The test mode can be enabled to allow editing the custom CSS via the igumbi backend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with WordPress 4.4.2"
+msgstr ""

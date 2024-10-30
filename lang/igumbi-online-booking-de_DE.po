@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: igumbi-online-booking\n"
+"POT-Creation-Date: 2018-06-06 16:45+0200\n"
+"PO-Revision-Date: 2018-06-06 17:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: Roland Oth\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: includes/views\n"
+"X-Poedit-SearchPath-1: igumbi-online-booking.php\n"
+"X-Poedit-SearchPath-2: readme.txt\n"
+
+#: igumbi-online-booking.php:153
+msgid "We could not fetch the Productcategories from igumbi"
+msgstr "Wir konnten die Produktkategorien nicht von igumbi holen"
+
+#: igumbi-online-booking.php:161
+msgid "List of Productcategories"
+msgstr "Liste der Produktkategorien"
+
+#: igumbi-online-booking.php:162
+msgid ""
+"It is possible to embed a <b>classic availability calender</b> showing the "
+"dates of the current month for the entire next year. Typically such "
+"calendars are embedded on a Post Page describing an apartment or "
+"holidayrental. Below you will find a list of the categories and a sample of "
+"the availability calendar."
+msgstr ""
+"Es gibt die Möglichkeit einen <b>klassischen Verfügbarkeitskalender</b> mit "
+"den Terminen des aktuellen Monats bis zum Ende des folgenden Jahres "
+"einzubetten. Typisch werden solche Kalender in Beitragsseiten über ein "
+"Apartment/ eine Ferienwohnung eingebettet. In der Liste unterhalb sieht man "
+"die buchbaren Kategorien und den dazugehörigen Shortcode. Ein "
+"Beispielkalender für eine Kategorie ist darunter eingebettet."
+
+#: igumbi-online-booking.php:164
+msgid "Hotel Code"
+msgstr "Hotelcode in igumbi"
+
+#: igumbi-online-booking.php:177
+msgid "Shortcode for the Availability Calendar"
+msgstr "Shortcode für den Verfügbarkeitskalender"
+
+#: igumbi-online-booking.php:207
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/views/admin-page.php:5
+msgid "igumbi Online Booking Tool Embedding Page"
+msgstr "igumbi Online Buchungstool Einbetten"
+
+#: includes/views/admin-page.php:13
+msgid "igumbi Hotel Code"
+msgstr "igumbi Hotelcode"
+
+#: includes/views/admin-page.php:18
+msgid ""
+"You will find the 7 character <b>hotel code</b> on the igumbi <a href="
+"\"https://www.igumbi.net/settings/mine?"
+"locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link"
+"\">settings page</a>.<br/> To see it you need an account and need to be "
+"logged in at <a href=\"https://www.igumbi.net/login?"
+"locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link"
+"\">igumbi</a>.<br/>Create a new <a href=\"https://www.igumbi.com/trial?"
+"locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link\">trial "
+"account</a>."
+msgstr ""
+"Den 7-Buchstaben Hotelcode finden Sie auf der igumbi <a href=\"https://www."
+"igumbi.net/settings/mine?"
+"utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link\">Settings Seite</"
+"a>.<br/>\n"
+"Dafür brauchen Sie ein Benutzer Account und Sie müssen in <a href=\"https://"
+"www.igumbi.net/login?"
+"utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link\">igumbi "
+"eingeloggt</a> sein.<br/>\n"
+"Legen Sie einen <a href=\"https://www.igumbi.com/trial?"
+"utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link\">Demo Zugang</a> "
+"an."
+
+#: includes/views/admin-page.php:24
+msgid "igumbi Language Code"
+msgstr "igumbi Sprachcode"
+
+#: includes/views/admin-page.php:38
+msgid "Language: ISO code, Supported languages are de, en, gr, ru, es, nl, jp, de_du"
+msgstr ""
+"ISO Sprachcode. Die unterstützten Sprachen sind: de, en, gr, ru, es, nl, jp, de_du"
+
+#: includes/views/admin-page.php:46
+msgid "igumbi Wide Mode"
+msgstr "igumbi 'Wide' Modus"
+
+#: includes/views/admin-page.php:55
+msgid ""
+"Tall or wide mode: The tall mode should be used in the sidebar as a widget. "
+"<br/> The wide mode you integrate into the header or the top of the body via "
+"the shortcode [igumbi_avform]."
+msgstr ""
+"Tall- oder Wide-Modus: Der Tall-Mode wird typischerweise in der Sidebar als "
+"Widget verwendet. <br/>\n"
+"Den Wide Modus integriert man über den Shortcode [igumbi_avform] im Header "
+"oder unter einem Hero Bild im oberen Bereich der Seite."
+
+#: includes/views/admin-page.php:62
+msgid "igumbi Responsive Mode"
+msgstr "igumbi Responsiver Modus"
+
+#: includes/views/admin-page.php:71
+msgid ""
+"Responsive Mode: When you choose the 'responsive' mode over the 'classic' "
+"mode you get a stripped down CSS file and you need to ensure that you handle "
+"the styling of your buttons to go with your theme."
+msgstr ""
+"Responsiver-Modus: Wenn Sie den 'responsive'-Modus wählen, statt dem "
+"'classic'-Modus, erhalten Sie eine abgespeckte CSS-Datei und Sie müssen sich "
+"selber um das Styling der Buttons kümmern damit es mit Ihrem Theme "
+"zusammenspielt."
+
+#: includes/views/admin-page.php:82
+msgid ""
+"You can overwrite the CSS provided by the igumbi booking tool. Check the <a "
+"href='https://www.igumbi.com/stylesheets/seller.css' target='_blank'>basic "
+"CSS</a> (mostly width and dimensions),<br/> the <a href='https://www.igumbi."
+"com/stylesheets/sellerci.css' target='_blank'>button and colors CSS</a> and "
+"the <a href='https://www.igumbi.com/stylesheets/date.css' "
+"target='_blank'>date popup CSS</a> files."
+msgstr ""
+"Sie können das CSS des igumbi Buchungstools überschreiben. Sehen sich die <a "
+"href='https://www.igumbi.com/stylesheets/seller.css' "
+"target='_blank'>Standard CSS Datei</a> an (Größtenteils Breiten und "
+"Dimensionen der Elemente), das <a href='https://www.igumbi.com/stylesheets/"
+"sellerci.css' target='_blank'>CSS für Buttons und Farben</a> und das <a "
+"href='https://www.igumbi.com/stylesheets/date.css' target='_blank'>CSS für "
+"das Datum-Popup</a>."
+
+#: includes/views/admin-page.php:99
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: includes/views/admin-page.php:104
+msgid ""
+"Sign-up for a <a href='https://www.igumbi.com/trial?"
+"locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link' "
+"class='button button-primary'>igumbi trial account</a> and enter the "
+"settings above."
+msgstr ""
+"Melden Sie sich zu einem <a href='https://www.igumbi.com/trial?"
+"locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link' "
+"class='button button-primary'>igumbi Demo Zugang</a> an."
+
+#: includes/views/admin-page.php:108
+msgid ""
+"Set up your property in igumbi: at least describe your productcategories and "
+"load a picture for each productcategory. Ensure your bookings have been "
+"entered so that the correct availability can be calculated before setting "
+"the booking tool live on the site."
+msgstr ""
+"Richten Sie Ihren Betrieb in igumbi ein: Beschreiben Sie zumindest Ihre "
+"Produktkategorien und laden Sie ein Bild für jede Produktkategorie. Stellen "
+"Sie sicher, dass Ihre Buchungen korrekt eingegeben wurden damit igumbi die "
+"korrekte Verfügbarkeit berechnen kann, bevor das Buchungstool live auf Ihre "
+"WordPress Website stellen."
+
+#: includes/views/admin-page.php:112
+msgid ""
+"The widget to start the booking (dates from and to, rooms, persons) has been "
+"added to the widget sidebar. The placement of the booking tool output is "
+"your main content area. You can place the elements individually by creating "
+"an article in WordPress (or update your site template) and enter the "
+"shortcodes: [igumbi_avform] and [igumbi_dialog]. You can customize the "
+"avform with parameters like [igumbi_avform wide=true lang=es] to handle "
+"different layouts and languages."
+msgstr ""
+"Das Widget um eine Buchung zu starten(Ab-/Abreisedatum, Zimmer, Personen) "
+"wurde in den Widget Sidebar platziert. Die Auskunft vom Server über Preise "
+"und Verfügbarkeiten ist Ihr Haupt-Contentbereich. Um die beiden Elemente "
+"frei zu platzieren erstellen Sie einen Beitrag (oder aktualisieren Sie Ihr "
+"Website Template) und nutzen Sie die Shortcodes: [igumbi_avform] und "
+"[igumbi_dialog] um die Elemente in Ihrer zu platzieren. Der Aufruf des "
+"\"avform\" Formulars kann mit Parametern erfolgen: z. B. [avform wide=true "
+"lang=es] für ein anderes Einstiegslayout und in Spanisch."
+
+#: includes/views/admin-page.php:116
+msgid ""
+"Add the [igumbi_avform] to the sidebar widgets. Menu Appearance >> Widgets "
+"and pull it to the top under/above search - move it up high in the sidebar, "
+"as it is probably your primary conversion goal to drive bookings with your "
+"WordPress Site."
+msgstr ""
+"Fügen Sie den Sidebar-Widgets [igumbi_avform] hinzu. Menü Design >> Widgets "
+">> Blog Sidebar und ziehen Sie es ganz hinauf unter oder über die \"Suche\". "
+"Das Element sollte recht weit oben im Blog Sidebar sein. Es ist "
+"wahrscheinlich das primäre Ziel der Website Buchungen zu generieren."
+
+#: includes/views/admin-page.php:120
+msgid ""
+"Optionally add the shortcode [igumbi_dialog] to your theme. Usually it is "
+"placed first item after <code>&lt;div id='content' role='main'&gt;</code> "
+"with <code>&lt;?php echo do_shortcode('[igumbi_dialog]');?&gt;</code>.<br/"
+">This is where the response from the booking tool will land after an "
+"availability request has been made."
+msgstr ""
+"Fügen Sie nach <code>&lt;div id='content' role='main'&gt;</code> den "
+"Shortcode [igumbi_dialog] zu Ihrem Theme als erstes Element hinzu\n"
+"mit <code>&lt;?php echo do_shortcode('[igumbi_dialog]');?&gt;</code>. In "
+"diesen Bereich kommt die Antwort des Servers nachdem eine "
+"Verfügbarkeitsanfrage gestellt wurde."
+
+#: includes/views/admin-page.php:124
+#, fuzzy
+#| msgid ""
+#| "If you want to user <b>Stripe for payment processing</b> of the bookings, "
+#| "it can be integrated. Contact <a href='mailto:support@igumbi.com?"
+#| "subject=Word press%20Plugin%20Stripe'>igumbi Support</a> for activation "
+#| "and a walkthrough of the options.<br/> Here is a <a href='https://www."
+#| "igumbi.com/de/support/kreditkartenzahlung-mit-stripe'>German support "
+#| "article</a> explaining the igumbi - Stripe integration."
+msgid ""
+"If you want to user <b>Stripe for payment processing</b> of the bookings, it "
+"can be integrated. Contact <a href='mailto:support@igumbi.com?"
+"subject=Wordpress%20Plugin%20Stripe'>igumbi Support</a> for activation and a "
+"walkthrough of the options.<br/> Here is a <a href='https://www.igumbi.com/"
+"de/support/kreditkartenzahlung-mit-stripe'>German support article</a> "
+"explaining the igumbi - Stripe integration."
+msgstr ""
+"Wenn Sie <b>Stripe für die Zahlungsabwicklung</b> der Buchungen verwenden "
+"möchten, so kann dieser im igumbi im Backend konfiguriert werden.\n"
+"Kontaktieren Sie den <a href='mailto:support@igumbi.com?subject=Wordpress"
+"%20Plugin%20Stripe'> igumbi Support</a> für die Aktivierung und einer Demo "
+"der Zahlungsfunktionen. Hier ist ein <a href='https://www.igumbi.com/de/"
+"support/kreditkartenzahlung-mit-stripe'>Support-Artikel </a> der die igumbi "
+"- Stripe Integration erklärt."
+
+#~ msgid "Availability Calendar"
+#~ msgstr "Verfügbarkeitskalender"
+
+#~ msgid "Occupancy Calendar"
+#~ msgstr "Belegungskalender"
